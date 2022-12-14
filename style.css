@@ -20,9 +20,9 @@ header {
 }
 
 .nav-box {
-  width: 93%;
+  width: 90%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 5px;
 
   display: flex;
   justify-content: space-between;
@@ -33,21 +33,36 @@ header {
   display: flex;
   align-items: center;
 }
-#ul-1 button{
+#ul-1 button {
   width: 30px;
   height: 30px;
   padding: 0;
 }
 .nav-box ul li {
-  margin: 20px;
+  margin: 15px;
 }
 
+img {
+  margin: 0 5px;
+}
 .btn {
   display: flex;
   align-items: center;
 
-  border: 1px solid rgb(175, 175, 175);
+  border: 1px solid rgba(175, 175, 175, 0.445);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.158);
   background-color: white;
   border-radius: 6px;
   padding: 10px 20px;
+}
+.btn a {
+  display: flex;
+}
+.orange-btn {
+  background-color: #CF6F49;
+  box-shadow: none;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
