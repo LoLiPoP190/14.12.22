@@ -31,7 +31,18 @@ header {
   list-style-type: none;
 
   display: flex;
+  align-items: center;
 }
 .nav-box ul li {
   margin: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid rgb(175, 175, 175);
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
