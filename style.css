@@ -33,10 +33,14 @@ header {
   display: flex;
   align-items: center;
 }
-#ul-1 button {
+.ul-1 button {
   width: 30px;
   height: 30px;
   padding: 0;
+  border-radius: 10px;
+}
+.ul-1 li {
+  font-weight: 700;
 }
 .nav-box ul li {
   margin: 15px;
