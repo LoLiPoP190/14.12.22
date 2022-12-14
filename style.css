@@ -46,7 +46,7 @@ header {
   margin: 15px;
 }
 
-img {
+.nav-1 img {
   margin: 0 5px;
 }
 .btn {
@@ -63,10 +63,26 @@ img {
   display: flex;
 }
 .orange-btn {
-  background-color: #CF6F49;
+  background-color: #cf6f49;
   box-shadow: none;
 }
 a {
   text-decoration: none;
   color: black;
+}
+
+.container-1 {
+  display: flex;
+}
+.container-1 .container-box1 {
+  width: 1000px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+.topnav input[type="text"] {
+  padding: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  font-size: 17px;
 }
