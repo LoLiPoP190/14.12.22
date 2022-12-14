@@ -18,3 +18,20 @@ header {
   padding: 10px 0;
   color: white;
 }
+
+.nav-box {
+  width: 93%;
+  margin: 0 auto;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.nav-box ul {
+  list-style-type: none;
+
+  display: flex;
+}
+.nav-box ul li {
+  margin: 10px;
+}
