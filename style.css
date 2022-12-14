@@ -66,6 +66,9 @@ header {
   background-color: #cf6f49;
   box-shadow: none;
 }
+.orange-btn a{
+  color: white;
+}
 a {
   text-decoration: none;
   color: black;
@@ -86,15 +89,26 @@ a {
   width: 60%;
   margin-left: 15%;
 }
-.container-1 .text {
+.container-1 .container-box1 .text {
   color: #65665c;
+}
+.container-1 div {
+  margin-top: 10px;
 }
 
 .topnav {
   overflow: hidden;
 }
 .topnav input[type="text"] {
+  background-image: url(./search.png);
   padding: 6px;
   border: 1px solid rgba(0, 0, 0, 0.267);
   font-size: 17px;
+}
+
+.searchbar {
+  display: flex;
+}
+.searchbar button {
+  margin-left: 15px;
 }
