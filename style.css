@@ -18,6 +18,9 @@ header {
   padding: 10px 0;
   color: white;
 }
+ul {
+  list-style-type: none;
+}
 
 .nav-box {
   width: 90%;
@@ -28,8 +31,6 @@ header {
   justify-content: space-between;
 }
 .nav-box ul {
-  list-style-type: none;
-
   display: flex;
   align-items: center;
 }
@@ -116,4 +117,10 @@ a {
   padding: 5px 15px;
   background-color: #e7e8e3;
   border-radius: 30px;
+}
+
+
+.under-container .first-text {
+  margin-top: 65px;
+  color: #2a2c1f;
 }
