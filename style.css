@@ -98,10 +98,11 @@ a {
 .topnav {
   overflow: hidden;
 }
-.topnav input[type="text"] {
-  background-image: url(./search.png);
+.searchbar input[type="text"] {
   padding: 6px;
-  border: 1px solid rgba(0, 0, 0, 0.267);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.253);
   font-size: 17px;
 }
 .searchbar {
@@ -115,9 +116,4 @@ a {
   padding: 5px 15px;
   background-color: #e7e8e3;
   border-radius: 30px;
-}
-.bottom {
-  position: fixed;
-  bottom: 0;
-  left: 36.5%;
 }
