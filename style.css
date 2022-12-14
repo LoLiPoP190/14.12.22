@@ -5,3 +5,16 @@
   margin: 0;
 }
 
+header {
+  background-color: #939878;
+}
+.header-box {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  width: 90%;
+  height: 40px;
+  padding: 10px 0;
+  color: white;
+}
