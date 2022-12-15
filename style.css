@@ -119,8 +119,27 @@ a {
   border-radius: 30px;
 }
 
+.under-container{
+  display: flex;
+  align-items: center;
 
-.under-container .first-text {
   margin-top: 65px;
+}
+.under-container .icons {
+  display: flex;
+  margin-right: 6%;
+}
+.under-container ul {
+  display: flex;
+}
+.under-container .first-text {
   color: #2a2c1f;
+  line-height: 25px;
+  width: 245px;
+  margin-left: 6%;
+  margin-right: auto;
+}
+.under-container i {
+  color: #737680;
+  margin-right: 5px;
 }
