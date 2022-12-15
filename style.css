@@ -74,6 +74,9 @@ a {
   text-decoration: none;
   color: black;
 }
+h1 {
+  color: #2a2c1f;
+}
 
 .container-1 {
   display: flex;
