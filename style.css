@@ -82,7 +82,7 @@ a {
   width: 1000px;
   background-color: #f5f5f2;
 }
-.container-1 .big-text {
+.big-text {
   font-size: 55px;
   color: #2a2c1f;
 }
@@ -90,7 +90,7 @@ a {
   width: 60%;
   margin-left: 15%;
 }
-.container-1 .container-box1 .text {
+.text {
   color: #65665c;
 }
 .container-1 div {
@@ -143,3 +143,18 @@ a {
   color: #737680;
   margin-right: 5px;
 }
+
+.how-it-works {
+  margin-top: 120px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.how-it-works .text {
+  margin-top: 20px;
+
+  text-align: center;
+  width: 700px;
+}
+
