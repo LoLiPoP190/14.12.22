@@ -82,7 +82,7 @@ h1 {
   display: flex;
 }
 .container-1 .container-box1 {
-  width: 1000px;
+  width: 50%;
   background-color: #f5f5f2;
 }
 .big-text {
@@ -170,6 +170,7 @@ h1 {
   margin-top: 60px;
 }
 .card {
+  margin-bottom: 120px;
   flex: 0 0 30%;
 
   border: 1px solid #E7E8E3;
@@ -184,4 +185,13 @@ h1 {
   border-radius: 8px;
   width: 45px;
   height: 45px;
+
+  margin-bottom: 25px;
+}
+.card h1{
+  margin-bottom: 15px;
+}
+
+.container-3 {
+  display: flex;
 }
