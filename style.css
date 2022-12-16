@@ -154,6 +154,9 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
+.text {
+  color: #65665c;
+}
 .how-it-works .text {
   margin-top: 20px;
 
@@ -161,3 +164,24 @@ h1 {
   width: 700px;
 }
 
+.container-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.card {
+  flex: 0 0 30%;
+
+  border: 1px solid #E7E8E3;
+  border-radius: 16px;
+  padding: 35px 40px;
+  text-align: center;
+}
+.orange-icon {
+  color: #CF6F49;
+  background-color: #FAE8E1;
+  border: none;
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
+}
