@@ -217,3 +217,15 @@ h1 {
 .container-3 .text {
   margin-bottom: 20px;
 }
+
+.card-container {
+  display: flex;
+}
+.container3-section2 {
+  margin-left: 5%;
+}
+.container3-section2 .card {
+  border: none;
+  text-align: left;
+  margin-bottom: 15px;
+}
