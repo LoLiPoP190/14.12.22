@@ -5,25 +5,9 @@
   margin: 0;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Staatliches', cursive;
-  font-size: 20px;
-  background-image: url(./bg.jpg);
-  background-size: 200px;
-  color: rgb(74, 25, 25);
-}
-
-h1 {
-  text-shadow: 5px 5px tomato;
-}
-
 .row { /* строка */
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 /* [class^="col"] {
   padding: 0 10px;
@@ -111,7 +95,7 @@ ul {
   margin: 15px;
 }
 
-.nav-1 img {
+nav img {
   margin: 0 5px;
 }
 .btn {
@@ -147,12 +131,11 @@ span {
   margin-right: 15px;
 }
 
-header {
-  display: flex;
-}
-header .container-section1 {
-  width: 50%;
+header .section1 {
   background-color: #f5f5f2;
+}
+header .picture {
+  width: 100%;
 }
 .big-text {
   font-size: 55px;
