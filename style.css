@@ -260,9 +260,6 @@ header div {
   margin-bottom: 20px;
 }
 
-.container .cards {
-  display: flex;
-}
 .card.card-left {
   border: none;
   text-align: left;
