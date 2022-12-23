@@ -94,14 +94,18 @@ ul {
   display: flex;
   align-items: center;
 }
-.ul-1 button {
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.logo button {
   width: 30px;
   height: 30px;
   padding: 0;
   border-radius: 10px;
-}
-.ul-1 li {
-  font-weight: 700;
+  margin-right: 5px;
 }
 .nav-section ul li {
   margin: 15px;
