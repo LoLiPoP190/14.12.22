@@ -240,7 +240,6 @@ header div {
 
 .container {
   display: flex;
-  /* align-items: center; */
 
   width: 93%;
   margin: 0 auto;
@@ -277,18 +276,6 @@ header div {
   font-size: 50px;
 }
 
-.gray-section {
-  background-color: #f5f5f2;
-}
-.container-gray .container {
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 25px;
-}
-.container-gray .card-container {
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .big-card {
   flex: 0 0 32%;
   margin-bottom: 30px;
@@ -306,4 +293,13 @@ header div {
 }
 .top-right {
   margin-left: 90%;
+}
+
+.section-gray {
+  background-color: #F5F5F2;
+}
+.centered-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
