@@ -165,7 +165,6 @@ header div {
 }
 .how-it-works .text {
   margin-top: 20px;
-
   text-align: center;
   width: 700px;
 }
@@ -173,12 +172,13 @@ header div {
 .card-container {
   display: flex;
   justify-content: space-around;
-  margin-top: 60px;
+  width: 93%;
+  margin: 60px auto;
 }
 .card {
-  margin-bottom: 120px;
   flex: 0 0 30%;
 
+  margin-bottom: 120px;
   border: 1px solid #e7e8e3;
   border-radius: 16px;
   padding: 35px 40px;
@@ -250,12 +250,15 @@ header div {
 }
 .container-gray .container {
   flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
 }
 .container-gray .card-container {
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .big-card {
-  flex: 0 0 31%;
+  flex: 0 0 32%;
   margin-bottom: 30px;
 }
 .big-card-container {
@@ -268,4 +271,7 @@ header div {
 }
 .parameters {
   display: flex;
+}
+.top-right {
+  margin-left: 90%;
 }
