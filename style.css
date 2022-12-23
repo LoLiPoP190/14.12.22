@@ -7,7 +7,7 @@
 
 .row { /* строка */
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 /* [class^="col"] {
   padding: 0 10px;
@@ -201,7 +201,7 @@ header div {
 }
 
 .how-it-works {
-  margin-top: 120px;
+  margin: 120px 0;
 
   display: flex;
   flex-direction: column;
@@ -216,20 +216,15 @@ header div {
   width: 700px;
 }
 
-.card-container {
-  display: flex;
-  justify-content: space-around;
-  width: 93%;
-  margin: 60px auto;
-}
 .card {
-  flex: 0 0 30%;
-
   margin-bottom: 120px;
   border: 1px solid #e7e8e3;
   border-radius: 16px;
   padding: 35px 40px;
-  text-align: center;
+  text-align: center; 
+}
+.card-center {
+  margin: 0 30px;
 }
 .orange-icon {
   color: #cf6f49;
