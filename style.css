@@ -282,6 +282,7 @@ header div {
 .big-card {
   flex: 0 0 32%;
   margin: 0 15px 30px 15px ;
+  border-radius: 12px;
 }
 .big-card-text {
   background-color: white;
