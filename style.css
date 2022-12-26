@@ -316,3 +316,19 @@ h5 {
   justify-content: center;
   margin-top: -90px;
 }
+
+.dark-gray-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #65665C;
+  width: 100%;
+  border-radius: 24px;
+  color: white;
+}
+.dark-icon {
+  margin-top: 100px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+}
