@@ -259,6 +259,12 @@ header div {
 .text {
   margin-bottom: 20px;
 }
+.section-text {
+  margin-top: 70px;
+}
+.section-text1 {
+  margin-top: 150px;
+}
 
 .card.card-left {
   border: none;
@@ -269,13 +275,13 @@ header div {
 .card.card-left h3 {
   margin-bottom: 15px;
 }
-.container-section2 .big-text {
+.big-text {
   font-size: 50px;
 }
 
 .big-card {
   flex: 0 0 32%;
-  margin-bottom: 30px;
+  margin: 0 30px 30px 30px ;
 }
 .big-card-text {
   background-color: white;
