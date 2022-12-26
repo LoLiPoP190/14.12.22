@@ -259,11 +259,12 @@ h5 {
 .text {
   margin-bottom: 20px;
 }
-.section-text {
-  margin-top: 10%;
-}
-.section-text1 {
+.section-text1{
   margin-top: 20%;
+}
+.section-text2 {
+  margin-top: 10%;
+  margin-left: 10%;
 }
 
 .card.card-left {
