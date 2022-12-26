@@ -6,13 +6,9 @@
 }
 
 .row {
-  /* строка */
   display: flex;
   flex-wrap: wrap;
 }
-/* [class^="col"] {
-  padding: 0 10px;
-} */
 .col-1 {
   flex: 8.3% 0 0;
 }
@@ -326,9 +322,18 @@ h5 {
   border-radius: 24px;
   color: white;
 }
+.dark-gray-section .orange-btn {
+  margin-bottom: 100px;
+}
 .dark-icon {
   margin-top: 100px;
   border-radius: 8px;
   background-color: white;
   padding: 10px;
+}
+.white-text {
+  color: white;
+}
+.text.white-text {
+  color: #E7E8E3;
 }
