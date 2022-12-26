@@ -280,7 +280,6 @@ header div {
 }
 
 .big-card {
-  flex: 0 0 32%;
   margin: 0 15px 30px 15px ;
   border-radius: 12px;
 }
@@ -312,3 +311,4 @@ header div {
   justify-content: center;
   margin-top: -90px;
 }
+
