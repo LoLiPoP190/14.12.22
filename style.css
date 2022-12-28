@@ -375,3 +375,12 @@ h5 {
   margin-left: 15px;
 }
 
+.pt-1 {
+  padding-top: 150px;
+}
+.pt-y {
+  padding: 120px 0;
+}
+.floated-btn {
+  float: right;
+}
