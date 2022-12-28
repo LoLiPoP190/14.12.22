@@ -130,6 +130,13 @@ span {
 
 header .section1 {
   background-color: #f5f5f2;
+  position: relative;
+  padding-bottom: 110px;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 .picture {
   width: 100%;
@@ -166,10 +173,10 @@ header div {
   margin-left: 15px;
 }
 .gray-btn {
-  border: none;
   padding: 5px 15px;
   background-color: #e7e8e3;
   border-radius: 30px;
+  color: black;
 }
 
 .logotips {
@@ -296,11 +303,15 @@ h5 {
   display: flex;
 }
 .top-right {
-  margin-left: 90%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .section-gray {
   background-color: #f5f5f2;
+  position: relative;
+  padding-top: 150px;
 }
 .centered-text {
   display: flex;
