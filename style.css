@@ -311,7 +311,6 @@ h5 {
 .section-gray {
   background-color: #f5f5f2;
   position: relative;
-  padding-top: 150px;
 }
 .centered-text {
   display: flex;
@@ -358,6 +357,7 @@ h5 {
   border-radius: 16px;
   border: 1px solid #E7E8E3;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  margin-bottom: 110px;
 }
 .big-card p {
   width: 90%;
@@ -374,3 +374,4 @@ h5 {
   line-height: 25px;
   margin-left: 15px;
 }
+
