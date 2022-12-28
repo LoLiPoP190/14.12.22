@@ -120,7 +120,7 @@ a {
   color: black;
 }
 h1,
-h3 {
+h3, h5 {
   color: #2a2c1f;
 }
 span {
@@ -351,4 +351,7 @@ h5 {
 }
 .big-card p {
   width: 90%;
+}
+.big-card-text-stars {
+  padding: 30px 30px;
 }
