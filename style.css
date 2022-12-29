@@ -416,3 +416,20 @@ footer ul li h5 {
 footer {
   padding-top: 70px;
 }
+
+.small-container {
+  width: 75%;
+  margin: 0 auto;
+}
+.small-container span {
+  font-size: 14px;
+}
+.small-container img {
+  margin: 10px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
