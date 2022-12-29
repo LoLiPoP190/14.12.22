@@ -68,7 +68,7 @@ ul {
 ul li h4, li h5 {
   font-weight: 400;
 }
-i {
+.orange-icon i {
   color: #CF6F49;
 }
 
@@ -393,4 +393,26 @@ header .section-text {
 .pink-btn{
   background-color: #FAE8E1;
   padding: 4px 12px;
+}
+
+.text.small-text {
+  font-size: 12px;
+}
+.footer-mail h4 {
+  font-weight: 400;
+}
+footer .footer-mail .text {
+  margin: 10px 0;
+}
+.footer-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-right: 20%;
+}
+footer ul li h5 {
+  margin: 15px 0;
+}
+footer {
+  padding-top: 70px;
 }
