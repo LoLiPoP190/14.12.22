@@ -77,9 +77,6 @@ li h5 {
   width: 90%;
   margin: 0 auto;
   padding: 5px;
-
-  display: flex;
-  justify-content: space-between;
 }
 .nav-section ul {
   display: flex;
@@ -442,12 +439,11 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00baf0;
-  background: linear-gradient(to left, #f46b45, #eea849);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #fff;
+  background-color: transparent;
+  color: black;
   height: 50px;
   padding: 1em;
+  position: relative;
 }
 
 .menu {
@@ -481,7 +477,7 @@ footer {
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #fff;
+  background-color: black;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -513,7 +509,7 @@ footer {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1035px) {
   .menu-button-container {
     display: flex;
   }
@@ -535,7 +531,6 @@ footer {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
   #menu-toggle:checked ~ .menu li {
-    border: 1px solid #333;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -546,10 +541,14 @@ footer {
     margin: 0;
     padding: 0.5em 0;
     width: 100%;
-    color: white;
-    background-color: #222;
+    color: #fff;
+    background-color: white;
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
+  }
+
+  .section1 {
+    z-index: -1;
   }
 }
