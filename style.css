@@ -95,9 +95,6 @@ li h5 {
   border-radius: 10px;
   margin-right: 5px;
 }
-.nav-section ul li {
-  margin: 15px;
-}
 
 nav img {
   margin: 0 5px;
@@ -135,15 +132,19 @@ span {
   margin-right: 15px;
 }
 
-header .section1 {
+header {
   background-color: #f5f5f2;
+}
+header .section1 {
   position: relative;
-  padding-bottom: 131px;
 }
 .bottom-right {
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: -20%;
+}
+.corner {
+  width: 20%;
 }
 .picture {
   width: 100%;
@@ -154,11 +155,9 @@ header .section1 {
 }
 header .section-text {
   width: 60%;
-  margin-left: 15%;
+  margin-left: 13%;
 }
-.topnav {
-  overflow: hidden;
-}
+
 .searchbar input[type="text"] {
   padding: 6px;
   border: none;
@@ -522,6 +521,7 @@ footer {
     width: 100%;
     justify-content: center;
     align-items: center;
+    z-index: 1;
   }
   #menu-toggle ~ .menu li {
     height: 0;
@@ -548,7 +548,14 @@ footer {
     border-bottom: 1px solid #444;
   }
 
+}
+@media (max-width: 1085px) {
+  .big-text {
+    font-size: 30px;
+  }
+}
+@media (max-width: 945px) {
   .section1 {
-    z-index: -1;
+    
   }
 }
