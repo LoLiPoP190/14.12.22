@@ -571,6 +571,7 @@ footer {
     font-size: small;
   }
 }
+
 .pop-block {
   display: inline-block;
   position: relative; /* указывать обязательно */
