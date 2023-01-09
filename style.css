@@ -567,4 +567,8 @@ footer {
   header .col-6 {
     margin-bottom: 20px;
   }
+
+  * {
+    transform: scale(0.5);
+  }
 }
