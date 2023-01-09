@@ -26,7 +26,7 @@
   flex: 41.6% 0 0;
 }
 .col-6 {
-  flex: 50% 0 0;
+  flex: 50% 1 1;
 }
 .col-7 {
   flex: 58.3% 0 0;
@@ -559,12 +559,15 @@ footer {
   .bottom-right {
     display: none;
   }
-
-  .col-6 {
-    flex: 1 1 50%;
-  }
   
   header .col-6 {
     margin-bottom: 20px;
+  }
+
+  .big-text {
+    font-size: x-large;
+  }
+  .text span {
+    font-size: small;
   }
 }
