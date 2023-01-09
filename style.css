@@ -187,6 +187,7 @@ header .section-text {
 }
 .logotips .icons {
   display: flex;
+  flex-wrap: wrap;
   margin-right: 6%;
 }
 .logotips ul {
@@ -554,8 +555,16 @@ footer {
     font-size: 30px;
   }
 }
-@media (max-width: 945px) {
-  .section1 {
-    
+@media (max-width: 890px) {
+  .bottom-right {
+    display: none;
+  }
+
+  .col-6 {
+    flex: 1 1 50%;
+  }
+  
+  header .col-6 {
+    margin-bottom: 20px;
   }
 }
