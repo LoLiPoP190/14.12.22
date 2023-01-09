@@ -592,3 +592,9 @@ footer {
   width: 100%;
   height: auto;
 }
+#pop-checkbox {
+  display: none;
+}
+#pop-checkbox:checked + .pop-block {
+  visibility: hidden; /*чтобы освободить занимаемое место - display: none;*/
+}
