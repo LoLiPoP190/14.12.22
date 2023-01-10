@@ -573,30 +573,24 @@ footer {
 }
 
 .pop-block {
-  display: inline-block;
-  position: relative; /* указывать обязательно */
-  width: 30%;
-  height: 300px; /* высота всего блока */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  height: 40px; 
   background-color: #65665c;
-  margin: 1%;
 }
 .close-block {
-  display: block;
-  position: absolute;
-  top: 8px;
-  right: -8px;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url(./images/cross.png);
   cursor: pointer;
-}
-.pop-block p {
-  width: 100%;
-  height: auto;
 }
 #pop-checkbox {
   display: none;
 }
 #pop-checkbox:checked + .pop-block {
-  display: none; /*чтобы освободить занимаемое место - display: none;*/
+  display: none;
 }
