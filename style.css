@@ -577,6 +577,7 @@ footer {
   position: relative; /* указывать обязательно */
   width: 30%;
   height: 300px; /* высота всего блока */
+  background-color: #65665c;
   margin: 1%;
 }
 .close-block {
@@ -586,7 +587,7 @@ footer {
   right: -8px;
   width: 16px;
   height: 16px;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAElBMVEXqAAD8oaH/AAD/ra3/vr7///91+I/7AAAAQklEQVR42oXPwQoAIAgD0JXu/385FfTQgnYweKAp9pUXmE+swAFWAG8owQBTqjQQ8SQOcAdRQVtkqHy7dDFd/X/tAVqqAopyUfkOAAAAAElFTkSuQmCC);
+  background-image: url(./images/cross.png);
   cursor: pointer;
 }
 .pop-block p {
