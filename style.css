@@ -578,7 +578,10 @@ footer {
   justify-content: space-between;
   padding: 10px 50px;
   height: 40px; 
-  background-color: #65665c;
+  background-color: #939878;
+}
+.pop-block div {
+  color: white;
 }
 .close-block {
   width: 20px;
