@@ -68,6 +68,32 @@ li h5 {
   align-items: center;
 }
 
+.pop-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  height: 40px; 
+  background-color: #939878;
+}
+.pop-block div {
+  color: white;
+}
+.close-block {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/cross.png);
+  cursor: pointer;
+}
+#pop-checkbox {
+  display: none;
+}
+#pop-checkbox:checked + .pop-block {
+  display: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -557,28 +583,3 @@ footer {
   }
 }
 
-.pop-block {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 50px;
-  height: 40px; 
-  background-color: #939878;
-}
-.pop-block div {
-  color: white;
-}
-.close-block {
-  width: 20px;
-  height: 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(./images/cross.png);
-  cursor: pointer;
-}
-#pop-checkbox {
-  display: none;
-}
-#pop-checkbox:checked + .pop-block {
-  display: none;
-}
