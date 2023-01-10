@@ -597,5 +597,5 @@ footer {
   display: none;
 }
 #pop-checkbox:checked + .pop-block {
-  visibility: hidden; /*чтобы освободить занимаемое место - display: none;*/
+  display: none; /*чтобы освободить занимаемое место - display: none;*/
 }
