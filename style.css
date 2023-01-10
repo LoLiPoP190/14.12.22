@@ -576,10 +576,10 @@ footer {
   }
 
   .big-text {
-    font-size: x-large;
+    /* font-size: x-large; */
   }
   .text span {
-    font-size: small;
+    /* font-size: small; */
   }
 }
 
